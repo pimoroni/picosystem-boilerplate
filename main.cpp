@@ -1,6 +1,4 @@
-#include "picosystem.hpp"
-
-using namespace picosystem;
+#include "main.hpp"
 
 void init() {
 }
