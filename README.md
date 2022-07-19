@@ -5,7 +5,7 @@ If you're starting a project in your own GitHub repository, this boilerplate wil
 You should have:
 
 - CMakeLists.txt
-- main.cpp (and/or your sources)
+- main.cpp and main.hpp (and/or your sources)
 - pico_sdk_import.cmake - Helper to find the Pico SDK
 - picosystem_sdk_import.cmake  - Helper to find the PicoSystem SDK
 
