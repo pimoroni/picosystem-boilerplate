@@ -27,7 +27,7 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # Find the PicoSystem library
-include(picosystem_sdk_import.cmake)
+include(./picosystem_sdk_import.cmake)
 
 # Create the output target
 picosystem_executable(
