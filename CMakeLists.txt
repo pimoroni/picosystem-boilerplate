@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.12)
 set(PROJECT_NAME my_project)
 
 # Automatically find all source files in the specified directory
-file(GLOB PROJECT_SOURCES ${SOURCES_DIR}/*.cpp ${SOURCES_DIR}/*.c ${SOURCES_DIR}/*.cxx)
+file(GLOB PROJECT_SOURCES ./*.cpp ./*.c ./*.cxx)
 
 # --- Here Be Boilerplate ---
 
