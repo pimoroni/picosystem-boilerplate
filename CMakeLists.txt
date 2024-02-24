@@ -3,10 +3,8 @@ cmake_minimum_required(VERSION 3.12)
 # Set your project name here
 set(PROJECT_NAME my_project)
 
-# Set your project sources here
-set(PROJECT_SOURCES
-    main.cpp
-)
+# Automatically find all source files in the specified directory
+file(GLOB PROJECT_SOURCES ./*.cpp ./*.c ./*.cxx)
 
 # --- Here Be Boilerplate ---
 
@@ -27,7 +25,7 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # Find the PicoSystem library
-include(picosystem_sdk_import.cmake)
+include(./picosystem_sdk_import.cmake)
 
 # Create the output target
 picosystem_executable(
